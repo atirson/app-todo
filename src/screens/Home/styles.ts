@@ -1,10 +1,14 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#1a1a1a',
+  },
   form: {
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
     marginTop: -40,
-  }
+  },
 });
