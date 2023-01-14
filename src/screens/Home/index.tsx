@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { ButtonAdd } from '../../components/ButtonAdd';
+import { EmptyList } from '../../components/EmptyList';
 import { Input } from '../../components/Input';
 import { Logo } from '../../components/Logo';
 import { Progress } from '../../components/Progress';
@@ -14,6 +15,8 @@ export const Home = () => {
         <ButtonAdd />
       </View>
       <Progress />
+
+      <EmptyList />
     </View>
   )
 }
