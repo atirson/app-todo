@@ -4,7 +4,7 @@ import { styles } from './styles';
 export function ButtonAdd() {
   return (
     <TouchableOpacity style={styles.container}>
-      <Image source={require('../../assets/plus.png')} />
+      <Image source={require('../../../assets/plus.png')} />
     </TouchableOpacity>
   );
 }
