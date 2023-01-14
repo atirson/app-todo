@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { ButtonAdd } from '../../components/ButtonAdd';
+import { CardList } from '../../components/CardList';
 import { EmptyList } from '../../components/EmptyList';
 import { Input } from '../../components/Input';
 import { Logo } from '../../components/Logo';
@@ -16,7 +17,11 @@ export const Home = () => {
       </View>
       <Progress />
 
-      <EmptyList />
+      <View style={styles.list}>
+        <EmptyList />
+        <CardList />
+      </View>
+      
     </View>
   )
 }

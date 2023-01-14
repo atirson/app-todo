@@ -11,4 +11,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     marginTop: -40,
   },
+  list: {
+    paddingHorizontal: 20,
+  }
 });
