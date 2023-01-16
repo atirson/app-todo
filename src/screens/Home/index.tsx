@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { View } from 'react-native';
 import { ButtonAdd } from '../../components/ButtonAdd';
 import { Todo } from '../../components/Card';
@@ -21,11 +21,6 @@ export const Home = () => {
 
     setTodos([...todos, todo])
     setText('')
-  }
-
-  const handleRemoveTodo = (id: string): void => {
-    const filteredTodos = todos.filter(todo => todo.id !== id)
-    setTodos(filteredTodos)
   }
 
   return (
